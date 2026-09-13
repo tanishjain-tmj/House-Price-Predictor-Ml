@@ -8,67 +8,46 @@ The goal of this project is to build a House Price Prediction model using the Be
 
 Workflow
 
-Load and understand the dataset
+1 Load and understand the dataset
 
-Handle missing and duplicate data
+2 Handle missing and duplicate data
 
-Convert data into suitable numerical formats
+3 Convert data into suitable numerical formats
 
-Perform feature engineering
+4 Perform feature engineering
 
-Remove price outliers
+5 Remove price outliers
 
-Split data into training and testing sets
+6 Split data into training and testing sets
 
-Encode categorical features using One-Hot Encoding
+7 Encode categorical features using One-Hot Encoding
 
-Train a Linear Regression model
+8 Train a Linear Regression model
 
-Evaluate the model using R² Score
+9 Evaluate the model using R² Score
 
-Enter house details and predict the estimated price
+10 Enter house details and predict the estimated price
 
 📊 Dataset
 
 Dataset: Bengaluru House Data
 
-Main Features
+Feature:
+area_type :Type of area measurement
 
-Feature
+availability : Availability status of the property
 
-Description
+location :Location of the house
 
-area_type
+total_sqft :Total area in square feet
 
-Type of area measurement
+bath :Number of bathrooms
 
-availability
+balcony :Number of balconies
 
-Availability status of the property
+BHK :Number of bedrooms/hall/kitchen
 
-location
-
-Location of the house
-
-total_sqft
-
-Total area in square feet
-
-bath
-
-Number of bathrooms
-
-balcony
-
-Number of balconies
-
-BHK
-
-Number of bedrooms/hall/kitchen
-
-price
-
-House price in Indian Rupees Lakhs
+price :House price in Indian Rupees Lakhs
 
 🛠️ Technologies Used
 
